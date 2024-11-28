@@ -65,6 +65,8 @@ path = r'C:\Users\Administrator\Desktop\test'
 
 #文件不存在 返回False 是文件夹返回False 只有是文件时返回True
 # print(os.path.isfile(path))
+#文件不存在 返回False 是文件返回False 只有是文件夹时返回True
+# print(os.path.isdir(path))
 
 # new_path = os.path.normpath('c:/windows/System32/Temp/')  # 描述：规范path字符串形式
 # print(new_path)
